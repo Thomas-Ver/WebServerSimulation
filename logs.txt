@@ -1,0 +1,4 @@
+LOG [2024/12/11 16:47:19] , Admin:false , pathRequested:/dashboard
+LOG [2024/12/11 16:47:19] , Admin:true , pathRequested:/dashboard/nonExistingPage
+LOG [2024/12/11 16:47:19] , Admin:true , pathRequested:/dashboard
+LOG [2024/12/11 16:47:19] , Admin:false , pathRequested:/home
