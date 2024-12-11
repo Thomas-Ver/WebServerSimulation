@@ -70,14 +70,5 @@ public class Main {
          * Status 200 : Home content here
          */
         webServer.getRequest(new WebRequest("/home", regularUser));
-
-        /**
-         * Expected content of file logs.txt
-         *
-         * Request made to /dashboard by non admin user
-         * Request made to /dashboard/nonExistingPage by admin user
-         * Request made to /dashboard by admin user
-         * Request made to /home by non admin user
-         */
     }
 }
